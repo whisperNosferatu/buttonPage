@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+}
+
+a {
+    padding: 15px 30px;
+    color: white;
+    font-size: 30pt;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 40px;
+}
+
+a:hover {
+    font-size: 35pt;
+    color: green;
+    border: 3px solid green;
+    border-radius: 50px;
+}
